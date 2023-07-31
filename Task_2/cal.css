@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #808b96;
+}
+
+.container{
+    width:45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #17202a,
+            -12px -12px 20px #17202a;
+}
+
+.display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: beige;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #234053,
+                inset -8px -8px 8px #234053;
+}
+
+.btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px black,
+                -5px -5px 8px #234053;
+                transition: .1s;
+}
+
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16,16,16,.1),
+    inset -5px -5px 8px #8e44ad;
+    background: #8e44ad;
+}
+
+#eval{
+    background:yellow ;
+    color: black;
+    box-shadow: inset 5px 5px 8px rgb(242, 250, 3),
+    inset -5px -5px 8px rgb(238, 239, 187);
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px papayawhip,
+    inset -5px -5px 8px papayawhip;
+}
+
+#ac{
+    background:crimson;
+    color: black;
+    box-shadow: inset 5px 5px 8px rgb(239, 52, 6),
+    inset -5px -5px 8px rgb(243, 194, 183);
+}
+
+#ac:hover{
+    box-shadow: inset 5px 5px 8px red,
+    inset -5px -5px 8px orangered;
+}
+
+#ce{
+    background:purple;
+    color: black;
+    box-shadow: inset 5px 5px 8px #512e5f,
+    inset -5px -5px 8px #d7bde2;
+}
+
+#ce:hover{
+    box-shadow: inset 5px 5px 8px maroon,
+    inset -5px -5px 8px indigo;
+}
